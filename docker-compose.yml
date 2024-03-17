@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  nginx-up-page:
+    image: ghcr.io/101br03k/nginx-up-page:v1.0-nv-1.10.1-alpine
+    restart: unless-stopped
+    ports:
+      - 5200:80
+    container_name: nginx-up-page
+    network_mode: bridge

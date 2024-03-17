@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   nginx-up-page:
-    image: ghcr.io/101br03k/nginx-up-page:v1.0-nv-1.10.1-alpine
+    image: ghcr.io/101br03k/nginx-up-page:v1.1-nv-stable-alpine3.17
     restart: unless-stopped
     ports:
       - 5200:80
